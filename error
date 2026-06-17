@@ -1,0 +1,22 @@
+Exception in thread "main" org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource.
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [38e3bc09-9abb-4b67-958f-a1f8392bb0e6, setClipboard {content=YWNvcm4=, contentType=plaintext}]
+Capabilities {appium:app: C:\Users\Himank.Patidar\ecl..., appium:appActivity: io.appium.android.apis.ApiD..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\Himank.Patidar\ecl..., automationName: UIAutomator2, deviceName: CATDevice, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-M356B, appium:deviceName: adb-RZCX70V9Y9X-UPjQx3._adb..., appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: adb-RZCX70V9Y9X-UPjQx3._adb..., appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:statBarHeight: 91, appium:takesScreenshot: true, appium:viewportRect: {height: 2249, left: 0, top: 91, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 38e3bc09-9abb-4b67-958f-a1f8392bb0e6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:302)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:38)
+	at io.appium.java_client.clipboard.HasClipboard.setClipboard(HasClipboard.java:42)
+	at io.appium.java_client.clipboard.HasClipboard.setClipboardText(HasClipboard.java:63)
+	at appium1.Program6_Clipboard.main(Program6_Clipboard.java:25)
